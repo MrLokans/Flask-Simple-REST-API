@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-with, initial-scale=1.0">
+    <!--
+        The meta name="viewport" comes from Bootstrap. It makes the page scale according to the browser 
+        dimensions, be it a browser on a desktop PC or one in a smartphone. 
+    -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css">
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js"></script>
+    <title>ToDo API client Demo</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-inner">
+            <a href="#" class="brand"></a>
+        </div>
+    </div>
+    <div id="main" class="container">
+        Main content goes here
+
+    </div>
+    <script type="text/javascript">
+
+    </script>
+    <table class="table table-stripped">
+        <tr>
+            <td style="width: 1px;"></td>
+            <td><b>Task</b></td>
+            <td><b>Options</b></td>
+        </tr>
+        <tr>
+            <td>
+                <span class="label label-success">Done</span>
+            </td>
+            <td>
+                <p>
+                    <b>Task title</b>
+                </p>
+                <p>Task description</p>
+            </td>
+            <td>
+                <button class="btn">Edit</button>
+                <button class="btn">Delete</button>
+                <span><button class="btn">Mark in progress</button></span>
+            </td>
+        </tr>
+        <tr>
+            <td><span class="label label-important">In progress</span></td>
+            <td><p><b>Task title</b></p><p>Task description</p></td>
+            <td>
+                <button class="btn">Edit</button>
+                <button class="btn">Delete</button>
+                <span><button class="btn">Mark Done</button></span>
+            </td>
+        </tr>
+    </table>
+    <button class="btn">Add Task</button>
+</body>
+</html>
